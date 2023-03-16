@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    padding: 1% 10%;
+}
+
+.left-menu, .right-menu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+
+.left-menu img{
+    height: 2.5rem;
+    margin-right: 20px;
+    padding: 0px;
+    
+}
+
+
+.card-container{
+    display: flex;
+    width: 70%;
+    margin: 40px auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.container h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 60vh;
+    width: 320px;
+    border-radius: 4%;
+    box-shadow: 0 2px 15px rgba(128, 128, 128, 0.295);
+    text-align: left;
+}
+
+
+.card img{
+    width: 320px;
+    height: 13rem;
+    border-top-right-radius: 4%;
+    border-top-left-radius: 4%;
+}
+
+
+.info h3{
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.inform{
+    padding: 6px 10px;
+    background-color: white;
+    height: 50vh;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.inform img{
+    height: 12rem;
+}
+.inform p{
+    margin-bottom: 20px;
+}
+
+.inform a:hover{
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.right-banner img{
+    height: 30rem;
+    padding: auto;
+}
+
+
